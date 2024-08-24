@@ -1,0 +1,66 @@
+.card{
+    height: 3000px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    
+    gap: 40px;
+}
+.one{
+    background-color: blueviolet;
+    height: 500px;
+    width: 1000px;
+}
+.two{
+    background-color: green;
+    width: 1000px;
+    height: 500px;
+}
+.three{
+    background-color: rgb(228, 30, 63);
+     height: 500px;
+     width: 1000px;
+    }
+    .four{
+        background-color: black;
+        color: white;
+        height: 500px;
+        width: 1000px;
+    }
+     
+/* <600px  */
+    
+    @media (max-width 601px) {
+
+        .three{
+        
+             width: 100%;
+             background-color:rgb(228, 30, 63);
+            }
+            .four{
+             width: 100%;
+             background-color: black;
+            }
+             
+
+         /* <600px, 601px, 768px, 992px, 1200px */
+
+         @media ( max-width 768px) {
+
+         
+
+        .three{
+        
+             width: 100%;
+             background-color:rgb(228, 30, 63);
+            }
+            .four {
+
+        
+             width: 100%;
+             background-color: black;
+
+            }
+            
+
+            }
